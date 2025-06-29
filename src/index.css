@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #FF4D4F;
+  --color-base: #FFFFFF;
+  --color-text: #000000;
+  --font-primary: 'Montserrat', sans-serif;
+  --font-secondary: 'Nokia Pure Headline', sans-serif;
+  --rounded-chip: 0.5rem;
+}
+
+body {
+  @apply bg-[var(--color-base)] text-[var(--color-text)];
+  font-family: var(--font-primary);
+}
