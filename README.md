@@ -27,5 +27,6 @@ The output will be generated in the `dist/` folder and is ready to be deployed o
 - React + TypeScript
 - TailwindCSS
 - shadcn/ui style components
-- LocalStorage for state persistence (to be implemented)
+- LocalStorage for state persistence
+The application shows multiple tabs (Lead List, Onboarded, Sales Team, Performance, Daily Check-In). Data is stored in your browser so you can try things without a backend.
 
